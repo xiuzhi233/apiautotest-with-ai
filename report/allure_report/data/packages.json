@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_case.test_enterprise_label",
+    "children" : [ {
+      "name" : "验证企业认证主键id传参为空，更新失败，接口返回报错信息",
+      "uid" : "5c5fdba2c845630a",
+      "parentUid" : "84bc55b8a82c3def515df4f13a8318a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1734854778561,
+        "stop" : 1734854778783,
+        "duration" : 222
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'/enterpriseManage/v1/label/update'", "'equal'", "'company_label_001'", "{'enterpriseBaseInfoId': 2550, 'recruitType': 1, 'isFamous': 1, 'industryId': 2, 'id': 2, 'industryName': '装修/房屋翻新', 'isFamousLabel': 1}", "{'code': 0, 'message': None, 'askId': '3750e2221e07276c', 'data': None, 'error': False}", "'p1'", "'POST'", "'application/json'", "'更新企业标签信息'", "4960036655", "None", "None", "'李福冉'", "'验证企业认证主键id传参为空，更新失败，接口返回报错信息'" ]
+    }, {
+      "name" : "验证企业认证主键id传参为空，更新失败，接口返回报错信息",
+      "uid" : "318df418e08f1c45",
+      "parentUid" : "84bc55b8a82c3def515df4f13a8318a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1734854778792,
+        "stop" : 1734854778865,
+        "duration" : 73
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'/enterpriseManage/v1/label/update'", "'equal'", "'company_label_002'", "{'enterpriseBaseInfoId': 2550, 'recruitType': 3, 'isFamous': 1, 'industryId': 2, 'id': None, 'industryName': '装修/房屋翻新', 'recruitTypeLabel': 1}", "{'code': 400, 'message': 'id不能为空', 'askId': '3750e2221e07276c', 'data': None, 'error': True}", "'p1'", "'POST'", "'application/json'", "'更新企业标签信息'", "4960036655", "None", "None", "'李福冉'", "'验证企业认证主键id传参为空，更新失败，接口返回报错信息'" ]
+    } ],
+    "uid" : "test_case.test_enterprise_label"
+  } ]
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>需求管理</title>
+</head>
+<body>
+    <h1>需求列表</h1>
+    <ul>
+        {% for demand_name, test_cases in data.items() %}
+            <li>
+                <a href="{{ url_for('test_case_list', demand_name=demand_name) }}">{{ demand_name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <h2>新建需求</h2>
+    <form method="POST" action="{{ url_for('create_demand') }}">
+        <label for="demand_name">需求名称:</label>
+        <input type="text" id="demand_name" name="demand_name" required>
+        <button type="submit">创建需求</button>
+    </form>
+</body>
+</html>

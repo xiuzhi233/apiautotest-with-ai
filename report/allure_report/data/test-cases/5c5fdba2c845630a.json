@@ -1,0 +1,140 @@
+{
+  "uid" : "5c5fdba2c845630a",
+  "name" : "验证企业认证主键id传参为空，更新失败，接口返回报错信息",
+  "fullName" : "test_case.test_enterprise_label.TestEnterpriseLabel#test_enterprise_label",
+  "historyId" : "1562d1beb44ab9ee09b56b79de56a23e",
+  "time" : {
+    "start" : 1734854778561,
+    "stop" : 1734854778783,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "req_fixture",
+    "time" : {
+      "start" : 1734854778559,
+      "stop" : 1734854778559,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "req_fixture::0",
+    "time" : {
+      "start" : 1734854778872,
+      "stop" : 1734854778872,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "更新企业标签信息"
+  }, {
+    "name" : "story",
+    "value" : "/enterpriseManage/v1/label/update"
+  }, {
+    "name" : "severity",
+    "value" : "p1"
+  }, {
+    "name" : "epic",
+    "value" : "【优化】效能 - 企业标签v1.1.0 - Web端名企分类"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_enterprise_label"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestEnterpriseLabel"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-J7EOLKH"
+  }, {
+    "name" : "thread",
+    "value" : "5200-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_enterprise_label"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api",
+    "value" : "'/enterpriseManage/v1/label/update'"
+  }, {
+    "name" : "assert_type",
+    "value" : "'equal'"
+  }, {
+    "name" : "case_id",
+    "value" : "'company_label_001'"
+  }, {
+    "name" : "data",
+    "value" : "{'enterpriseBaseInfoId': 2550, 'recruitType': 1, 'isFamous': 1, 'industryId': 2, 'id': 2, 'industryName': '装修/房屋翻新', 'isFamousLabel': 1}"
+  }, {
+    "name" : "expect",
+    "value" : "{'code': 0, 'message': None, 'askId': '3750e2221e07276c', 'data': None, 'error': False}"
+  }, {
+    "name" : "level",
+    "value" : "'p1'"
+  }, {
+    "name" : "method",
+    "value" : "'POST'"
+  }, {
+    "name" : "mime",
+    "value" : "'application/json'"
+  }, {
+    "name" : "module",
+    "value" : "'更新企业标签信息'"
+  }, {
+    "name" : "requirement",
+    "value" : "4960036655"
+  }, {
+    "name" : "sql",
+    "value" : "None"
+  }, {
+    "name" : "sql_type",
+    "value" : "None"
+  }, {
+    "name" : "tester",
+    "value" : "'李福冉'"
+  }, {
+    "name" : "title",
+    "value" : "'验证企业认证主键id传参为空，更新失败，接口返回报错信息'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c5fdba2c845630a.json",
+  "parameterValues" : [ "'/enterpriseManage/v1/label/update'", "'equal'", "'company_label_001'", "{'enterpriseBaseInfoId': 2550, 'recruitType': 1, 'isFamous': 1, 'industryId': 2, 'id': 2, 'industryName': '装修/房屋翻新', 'isFamousLabel': 1}", "{'code': 0, 'message': None, 'askId': '3750e2221e07276c', 'data': None, 'error': False}", "'p1'", "'POST'", "'application/json'", "'更新企业标签信息'", "4960036655", "None", "None", "'李福冉'", "'验证企业认证主键id传参为空，更新失败，接口返回报错信息'" ]
+}

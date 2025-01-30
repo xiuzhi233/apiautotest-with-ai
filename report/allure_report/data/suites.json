@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case",
+    "children" : [ {
+      "name" : "test_enterprise_label",
+      "children" : [ {
+        "name" : "TestEnterpriseLabel",
+        "children" : [ {
+          "name" : "验证企业认证主键id传参为空，更新失败，接口返回报错信息",
+          "uid" : "5c5fdba2c845630a",
+          "parentUid" : "46cba9d4a066cb646932d04b944178d7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1734854778561,
+            "stop" : 1734854778783,
+            "duration" : 222
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'/enterpriseManage/v1/label/update'", "'equal'", "'company_label_001'", "{'enterpriseBaseInfoId': 2550, 'recruitType': 1, 'isFamous': 1, 'industryId': 2, 'id': 2, 'industryName': '装修/房屋翻新', 'isFamousLabel': 1}", "{'code': 0, 'message': None, 'askId': '3750e2221e07276c', 'data': None, 'error': False}", "'p1'", "'POST'", "'application/json'", "'更新企业标签信息'", "4960036655", "None", "None", "'李福冉'", "'验证企业认证主键id传参为空，更新失败，接口返回报错信息'" ]
+        }, {
+          "name" : "验证企业认证主键id传参为空，更新失败，接口返回报错信息",
+          "uid" : "318df418e08f1c45",
+          "parentUid" : "46cba9d4a066cb646932d04b944178d7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1734854778792,
+            "stop" : 1734854778865,
+            "duration" : 73
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'/enterpriseManage/v1/label/update'", "'equal'", "'company_label_002'", "{'enterpriseBaseInfoId': 2550, 'recruitType': 3, 'isFamous': 1, 'industryId': 2, 'id': None, 'industryName': '装修/房屋翻新', 'recruitTypeLabel': 1}", "{'code': 400, 'message': 'id不能为空', 'askId': '3750e2221e07276c', 'data': None, 'error': True}", "'p1'", "'POST'", "'application/json'", "'更新企业标签信息'", "4960036655", "None", "None", "'李福冉'", "'验证企业认证主键id传参为空，更新失败，接口返回报错信息'" ]
+        } ],
+        "uid" : "46cba9d4a066cb646932d04b944178d7"
+      } ],
+      "uid" : "354a54d96f0da6490f9f63ae1093ed52"
+    } ],
+    "uid" : "86abcc46617c603d802c3e378b13740e"
+  } ]
+}

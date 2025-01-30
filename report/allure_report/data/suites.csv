@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Dec 22 16:06:18 CST 2024","Sun Dec 22 16:06:18 CST 2024","73","test_case","test_enterprise_label","TestEnterpriseLabel","","","验证企业认证主键id传参为空，更新失败，接口返回报错信息",""
+"passed","Sun Dec 22 16:06:18 CST 2024","Sun Dec 22 16:06:18 CST 2024","222","test_case","test_enterprise_label","TestEnterpriseLabel","","","验证企业认证主键id传参为空，更新失败，接口返回报错信息",""

@@ -1,0 +1,20 @@
+{
+  "4960036655": {
+    "更新企业标签信息": {
+      "company_label_001": {
+        "code": 0,
+        "message": null,
+        "askId": "3750e2221e07276c",
+        "data": null,
+        "error": false
+      },
+      "company_label_002": {
+        "code": 400,
+        "message": "id不能为空",
+        "askId": "3750e2221e07276c",
+        "data": null,
+        "error": true
+      }
+    }
+  }
+}

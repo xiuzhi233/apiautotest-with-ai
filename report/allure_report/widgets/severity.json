@@ -1,0 +1,21 @@
+[ {
+  "uid" : "5c5fdba2c845630a",
+  "name" : "验证企业认证主键id传参为空，更新失败，接口返回报错信息",
+  "time" : {
+    "start" : 1734854778561,
+    "stop" : 1734854778783,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "318df418e08f1c45",
+  "name" : "验证企业认证主键id传参为空，更新失败，接口返回报错信息",
+  "time" : {
+    "start" : 1734854778792,
+    "stop" : 1734854778865,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
